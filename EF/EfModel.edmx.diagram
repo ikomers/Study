@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="abcb048686b147859efe9bc10fd3da6e" Name="Diagram1" >
+        <EntityTypeShape EntityType="EfModel.User" Width="1.5" PointX="1.875" PointY="1.375" />
+        <EntityTypeShape EntityType="EfModel.Admin" Width="1.5" PointX="1.875" PointY="4" />
+        <InheritanceConnector EntityType="EfModel.Admin" />
+        <EntityTypeShape EntityType="EfModel.Department" Width="1.5" PointX="4.125" PointY="1.375" />
+        <AssociationConnector ManuallyRouted="false" Association="EfModel.DepartmentUser">
+        </AssociationConnector>
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
